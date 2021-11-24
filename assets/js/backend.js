@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){this.PrintDiv=()=>{var n=document.querySelector("#div-to-print"),t=window.open("","_blank","width=800,height=500");t.document.open(),t.document.write('<html><body onload="window.print()">'+n.innerHTML+"</html>"),t.document.close()}});
